@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MangaHouse</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/374aa39fba.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsive.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-div container">
+            <div class="header__firma">
+                <i class="fa-solid fa-book"></i>
+                <p>MangaSite</p>
+            </div>
+            <div class="header__navbar">
+                <input type="checkbox" id="hamburguesa">
+                <label for="hamburguesa" class="bars-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            
+                <ul class="navbar__list">
+                    <a href="#home">Home</a>
+                    <a href="#products">Productos</a>
+                    <a href="#">Turnos</a>
+                    <a href="#contactus">Contacto</a>
+                    <a href="signin.html">Sign in</a>
+                    <a href="signup.html">Sign up</a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero" id="home">
+            
+            <h2 class="title">Tu proveedor de lectura japonesa</h2>
+            <p class="text">Acá podrás adquirir todo tipo de mangas de diversos géneros, con precios económicos.</p>
+            
+        </section>
+        <section class="aboutus" id="Aboutus">
+            
+            <p>MangaSite es un local dedicado a la venta de mangas, que también cuenta con un espacio cómodo para que puedas leer tus mangas ahí mismo. El espacio está dividido en bloques, para sacar turno de un bloque ve al apartado 'Turnos'.</p>
+        
+        </section>
+        <section class="products" id="products">
+            <h2 class="title">Productos destacados</h2>
+            <div class="products__container container">
+                <div>
+                    <h3 class="">Colección Erased</h3>
+                    <img src="assets/erased.webp" alt="">
+                    <div class="comprar">
+                        <p>23000$</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="">Colección One punch man</h3>
+                    <img src="assets/onepunchman.webp" alt="">
+                    <div class="comprar">
+                        <p>30000$</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="">Colección Tokyo ghoul</h3>
+                    <img src="assets/TokyoGhoul.jpg" alt="">
+                    <div class="comprar">
+                        <p>14000$</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="">Colección Assasination Classroom</h3>
+                    <img src="assets/assasinationclassroom.webp" alt="">
+                    <div class="comprar">
+                        <p>15000$</p>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact container" id="contactus">
+            <h2 class="title">
+                Contáctanos
+            </h2>
+            <form  action="">
+                <label for="name">Nombre:</label>
+                <input type="text" name="" id="name">
+                <label for="mail">Correo:</label>
+                <input type="email" name="" id="mail">
+                <label for="messege">Mensaje</label>
+                <textarea name="" id="messege" cols="30" rows="10"></textarea>
+                <button>Enviar</button>
+            </form>
+            <div class="contact-div">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i><p>Av.Corrientes 112</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i><p>1123439900</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i><p>mangasite@gmail.com</p>
+                    </li>
+                </ul>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.005200678082!2d-58.4108635!3d-34.60403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca8600a88ccd%3A0xed3a53d6b2e5ebe7!2sAv.%20Corrientes%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1684937593000!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <span></span>
+        <p>MangaSite - Copyright 2023</p>
+        <span></span>
+    </footer>
+
+</body>
+</html>
