@@ -74,6 +74,10 @@ button:hover{
 }
 @media (max-width:780px) {
     .signup-container{
-        width: 50%;
+        width: 70%;
+        /* background-color: aquamarine; */
+    }
+    .signup-container input{
+        width: 100%;
     }
 }
