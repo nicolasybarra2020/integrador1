@@ -23,6 +23,7 @@ button:hover{filter: brightness(140%);}
     display: flex;
     align-items: center;
     font-family: 'Josefin Sans', sans-serif;
+    background:rgba(255, 161, 127,0.8)
 }
 .header-div{
     display: flex;
@@ -32,6 +33,7 @@ button:hover{filter: brightness(140%);}
 .header__firma{
     display: flex;
     gap: 10px;
+    font-size: 1.2rem;
 }
 .header__navbar input{display: none;}
 .header__navbar label{display: none;flex-direction: column; gap: 5px;position: relative;}

@@ -91,14 +91,31 @@
 }
 
 @media (max-width:490px){
+    .header__firma{
+        font-size: 1rem;
+    }
     .hero .title{
         width: 50%;
     }
+    .contact-div{
+        flex-direction: column;
+        justify-content: center;
+    }
     .contact-div ul{
+        display: flex;
         font-size: 0.7rem;
     }
+    .contact-div ul li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
     .contact-div iframe{
-        height: 250px;
+        height: 150px;
+        width: 90%;
     }
     .footer span{
         width: 20%;
