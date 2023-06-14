@@ -1,5 +1,3 @@
-
-
 *{
     padding: 0;
     margin: 0;
@@ -89,6 +87,14 @@ button:hover{filter: brightness(140%);}
 }
 
 /* Products */
+
+#home{
+    scroll-margin-top: 65px;
+}
+#products,#contactus{
+    scroll-margin-top: 48px;
+}
+
 .products{
     margin-top: 30px;
     text-align: center;
@@ -167,10 +173,11 @@ button:hover{filter: brightness(140%);}
     list-style: none;
     margin-bottom: 40px;
 }
-.contact-div p{
+.contact-div a,.contact-div p{
     display: inline;
     padding: 0 15px;
     color: white;
+    text-decoration: none;
 }
 .contact iframe{
     width: 40%;
