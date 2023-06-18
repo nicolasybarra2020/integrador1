@@ -91,6 +91,19 @@
 }
 
 @media (max-width:490px){
+
+    #home{
+        scroll-margin-top: 85px;
+    }
+    #products,#contactus{
+        scroll-margin-top: 90px;
+    }
+
+    .header__navbar ul a{
+        color: black;
+    }
+
+
     .header__firma{
         font-size: 1rem;
     }
