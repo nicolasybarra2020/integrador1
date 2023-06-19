@@ -116,6 +116,7 @@
     }
     .contact-div ul{
         display: flex;
+        align-items: center;
         font-size: 0.7rem;
     }
     .contact-div ul li{

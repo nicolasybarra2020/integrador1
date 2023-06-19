@@ -89,10 +89,10 @@ button:hover{filter: brightness(140%);}
 /* Products */
 
 #home{
-    scroll-margin-top: 65px;
+    scroll-margin-top: 90px;
 }
 #products,#contactus{
-    scroll-margin-top: 48px;
+    scroll-margin-top: 68px;
 }
 
 .products{
